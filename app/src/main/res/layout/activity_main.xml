@@ -14,7 +14,6 @@
         android:layout_height="wrap_content"
         android:text="Log In"
         android:textSize="20dp"
-        android:textColorLink="Green"
 
         />
 
@@ -33,11 +32,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:textColorHint="Input password"
-        android:hint="password"/>
+        android:hint="Input password"/>
 
     <Button
-        android:id="@+id/submit"
+        android:id="@+id/submit_Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Submit" />
