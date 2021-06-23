@@ -10,10 +10,19 @@
         android:id="@+id/usernameDisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hellow people"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="240dp"
         android:gravity="center"
-        android:textColor="@color/black"/>
+        android:text="Hello people"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/ProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="341dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
